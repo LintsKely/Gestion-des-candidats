@@ -1,0 +1,34 @@
+/* global.css */
+:root {
+  --color-marine: #0a2b3e;
+  --color-gray-light: #f9fafb;
+  --color-gray: #6b7280;
+  --color-gray-dark: #374151;
+  --color-white: #ffffff;
+  --color-black: #111827;
+  --color-red: #ef4444;
+
+  --font-sans: system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --font-heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-gray-dark);
+  background-color: var(--color-white);
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+/* Classes utilitaires personnalisées (si nécessaire) */
+.bg-marine {
+  background-color: var(--color-marine);
+}
+.text-marine {
+  color: var(--color-marine);
+}
